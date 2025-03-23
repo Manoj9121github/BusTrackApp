@@ -52,8 +52,12 @@ const BusMap = () => {
       <div className="mt-55 md:mt-260">
         <h1 className="mt-5">Enter Bus no:</h1>
         <div className="flex ">
-          <Input type="text" className="m-1"  placeholder="Search Bus-location"/>
-          <Input className="w-75 m-1" type="date"/>
+          <Input
+            type="text"
+            className="m-1"
+            placeholder="Search Bus-location"
+          />
+          <Input className="w-75 m-1" type="date" />
           <Button className="bg-red-200 md:w-xs m-1 rounded">Search</Button>
         </div>
       </div>
